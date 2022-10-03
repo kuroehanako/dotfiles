@@ -1,0 +1,29 @@
+button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  color: white;
+}
+
+button.titlebutton:not(.appmenu) { border-radius: 9999px; padding: 0px; margin: 0 4px; min-width: 18px; min-height: 18px; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); color: transparent; }
+
+button.minimize.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #fdbe04;
+}
+
+button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #fece43;
+}
+
+button.maximize.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #38c76a;
+}
+
+button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #6ad58f;
+}
+
+button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #fd5f51;
+}
+
+button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #fe877d;
+}
